@@ -54,6 +54,7 @@ ul {
 }
 .main-heading h2 {
   font-size: 2rem;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -277,6 +278,12 @@ ul {
   text-align: center;
 
   padding: 30px 30px;
+}
+
+@media (max-width: 768px) {
+  .services .cards {
+    padding: 0px;
+  }
 }
 .services .card {
   background-color: var(--backgr-card);
